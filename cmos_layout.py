@@ -50,7 +50,7 @@ cmos.shapes(l7).insert(pya.Box(800, 5470, 4200, 5650)) ## PMOS
 cmos.shapes(l7).insert(pya.Box(800, 4695, 1200, 8410))
 cmos.shapes(l7).insert(pya.Box(100, 6395, 800, 6705))
 
-# Vin Interconnection Layer
+# Vin Via Layer
 l8 = layout.layer(8,0)
 cmos.shapes(l8).insert(pya.Box(100, 6395, 500, 6705))
 
@@ -62,7 +62,7 @@ cmos.shapes(l9).insert(pya.Box(2035, 5045, 4405, 5260)) ## PMOS
 cmos.shapes(l9).insert(pya.Box(4405, 4695, 4800, 8400)) 
 cmos.shapes(l9).insert(pya.Box(4800, 6400, 5400, 6700)) 
 
-# Vout Interconnection Layer
+# Vout Via Layer
 l10 = layout.layer(10,0)
 cmos.shapes(l10).insert(pya.Box(5100, 6400, 5400, 6700))
 
